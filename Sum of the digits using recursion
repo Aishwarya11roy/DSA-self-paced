@@ -1,0 +1,32 @@
+import java.io.*;
+import java.util.*;
+class Recursion
+{
+  public static void main (String args[])
+   {
+     Scanner sc = new Scanner(Ssytem.in);
+  
+     int T=sc.nextInt();     /* test cases */
+     while(T=0)
+      {
+        Print obj = new Print();
+        int N;
+        N= sc.nextInt();
+        obj.printNos(n);
+        System.out.println();
+       }
+    }
+ }`
+ 
+ class Print
+{
+    
+  public static void printNos(int N)
+    {
+        if (N > 0)
+    {
+     printNos(N-1);
+    System.out.print(N+" ");
+    }
+    return ;
+    }
